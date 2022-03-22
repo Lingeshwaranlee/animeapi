@@ -1,0 +1,42 @@
+header {
+    background-color: rgb(49, 5, 5);
+    padding: 10px;
+    text-align: center;
+    font-family: cursive;
+    color: white;
+    opacity: 0.9;
+}
+
+.container-fluid {
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    padding: 5% 10% 25% 10%;
+}
+
+.align {
+    margin-top: 0%;
+    font-size: 30px;
+    font-family: cursive;
+    text-align: justify;
+}
+
+input[type="text"]:hover {
+    transform: translateY(2px);
+    box-shadow: 2px 2px 26px 2px rgb(212, 66, 66);
+}
+
+input[placeholder] {
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+@media all and (max-width:600px) {
+    .container-fluid {
+        height: 100%;
+        font-size: 80%;
+        text-align: justify;
+        padding: auto;
+    }
+}
